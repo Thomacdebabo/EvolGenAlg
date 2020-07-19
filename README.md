@@ -4,6 +4,8 @@ This is an optimizer which tries to optimize a path on a virtual terrain in rega
 It works by creating simple creatures which contain a brain which is modeled as a very simple neural network.
 The training process works by generating a population of creatures which we get by randomly modifying and combining the parameters inside the neural networks of the previous generation.
 
+![Main Image](https://github.com/Thomacdebabo/EvolGenAlg/blob/master/preeeetty_gooood.png)
+
 ## World
 
 ### The world contains:
@@ -42,6 +44,8 @@ the heights of 4 points around the creature
 how many steps it already took
 
 ## Brain
+
+![Brain](https://github.com/Thomacdebabo/EvolGenAlg/blob/master/nn_schema.jpg)
 
 ### Implementation:
 - input tensor

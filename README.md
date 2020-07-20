@@ -4,7 +4,39 @@ This is an optimizer which tries to optimize a path on a virtual terrain in rega
 It works by creating simple creatures which contain a brain which is modeled as a very simple neural network.
 The training process works by generating a population of creatures which we get by randomly modifying and combining the parameters inside the neural networks of the previous generation.
 
+
 ![Main Image](https://github.com/Thomacdebabo/EvolGenAlg/blob/master/preeeetty_gooood.png)
+
+## Problem statement
+### We have:
+
+- terrain
+- starting point
+- target point
+
+### Goal: find optimal path in regards to energy consumption
+
+## Approach
+### Basic Idea:
+
+- make creatures
+- let them walk
+- evaluate their performance
+- "kill" the worst ones
+- generate new population (randomly, mating or mutation)
+- iterate until convergence
+
+### Which classes do we need?
+
+- World
+- Creature
+- Brain
+
+The world contains a certain amount of creatures which all have their own individual brain.
+
+
+
+
 
 ## World
 
